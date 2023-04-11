@@ -3,23 +3,11 @@
 /*para seleccionar una clase antepongo un . al valor del atributo class*/
 * {
     margin: 0;
-    Padding: 0px;
+    padding: 0px;
     box-sizing: border-box;
+    background-image: url(../img/1920x1080-Fondo-negro-de-cuero.jpg);
+    background-size: cover;
 }
-
-/*deskop*/
-@media(min-width:1024px) {
-    .gridIndex{
-        display: grid;
-        
-    }
-
-}
-
-/*movil*/
-
-
-/*codigo*/
 .logo {
     font-size: 50px;
 }
@@ -48,7 +36,6 @@
     background-image: url(../img/1920x1080-Fondo-negro-de-cuero.jpg);
     height: 58px;
     width: 2000px;
-    padding-left: 950px;
 }
 
 .nav {
@@ -61,20 +48,8 @@
 .nav:hover {
     text-decoration: underline red;
 }
-
-.cuadrado {
-    background-image: url(../img/1920x1080-Fondo-negro-de-cuero.jpg);
-    background-size: cover;
-}
-
 li {
     display: inline;
-}
-
-/* con esta propiedad podemos pasar un elemento en bloque a en linea y uno de en linea a en bloque. inline, block o inline-block*/
-.asd {
-    padding-left: 750px;
-    margin: 80px
 }
 
 #titular {
@@ -116,10 +91,6 @@ body {
     color: white;
 }
 
-.gu {
-    padding-left: 1500px;
-}
-
 .redes {
     background-color: white;
 }
@@ -127,13 +98,16 @@ body {
 .link {
     text-decoration: none;
 }
-
+.contenedorPrincipal{
+    display: grid;
+}
 .contenedorProducto {
         display: grid;
         grid-template-columns: 40rem 40rem;
         grid-template-rows: 100px;
         gap: 20px;
         place-content: center;
+        margin-top: 130px;
 }
 .lorem{
     color: white;
@@ -189,26 +163,16 @@ body {
 .madone{
     width: 650px;
 }
-
-
-/*         <div><a class="producto" href="../pages/supercaliber9.6.html">   Supercaliber 9.6</a></div><br>
-        <div><img class="supercaliber" src="../img/supercaliber-96-22-rd1-f0f90da23d45f84b2416561012650754-640-0.webp"></a></div><br></div>
-        <a class="producto" href="../pages/topfuel7.html">Top Fuel 7</a><br>
-        <img class="topfuel" src="../img/FuelEX_2022_hero_Profile_16x9.jpg"></a><br>/*
-
-/*grid-template-columns: 500px 500px;
-    grid-template-rows: 80px 500px;/*
-
-    /*    display: flex;
-    justify-content: center;
-    align-items: center;/*
-
-
-    /*    place-content: center;
-    place-items: center;
+footer{
+    display: flex;
+    max-width: 100%;
+    flex-direction: column;
 }
-.contenedorProducto {
-    display: grid;
-    grid-template-columns: 40rem 40rem;
-    grid-template-rows: 100px;
-}/ */
+.contacto{
+    margin-top: 40px;
+}
+.logosRedes{
+    display: flex;
+    margin-top: 40px;
+    gap: 20px;
+}
