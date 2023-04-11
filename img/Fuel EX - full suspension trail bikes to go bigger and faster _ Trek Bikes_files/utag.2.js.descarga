@@ -1,0 +1,11 @@
+//tealium universal tag - taxitag.2 ut4.0.202303091951, Copyright 2023 Tealium.com Inc. All Rights Reserved.
+try{(function(id,loader,u){try{u=taxitag.o[loader].sender[id]={};}catch(e){u=taxitag.sender[id];}
+u.id=id;u.ev={"view":1};u.map={"ttd_retargeting_ct":"ct","ttd_retargeting_adv":"adv","ttd_conversion_td1":"td1"};u.extend=[];u.send=function(a,b,c,d,e,f){if(u.ev[a]||typeof u.ev.all!="undefined"){taxitag.DB("send:2");taxitag.DB(b);u.qsp_delim="&";u.kvp_delim="=";u.type="evnt";u.adv="31ujyhd";u.ct="jlovtb1";u.fmt="3";u.pid="2odgrey";u.coid="";u.base_url="//insight.adsrvr.org";taxitag.DB("send:2:EXTENSIONS");taxitag.DB(b);c=[];for(d in taxitag.loader.GV(u.map)){if(typeof b[d]!=="undefined"&&b[d]!==""){e=u.map[d].split(",");for(f=0;f<e.length;f++){if(e[f]=="ct"||e[f]=="adv"){u[e[f]]=b[d];}else{c.push(e[f]+u.kvp_delim+encodeURIComponent(b[d]));}}}}
+if(u.fmt==="")u.fmt="3";if((u.type==="iframe"&&u.fmt==="3")||(u.type!=="iframe"&&u.fmt==="1")){taxitag.DB("Tag "+id+": The fmt and tag types do not match (e.g., if fmt = 1, then type should be iframe). This may negatively affect tag functionality. Please ensure that the tag is correctly configured.");}
+if(u.type=="iframe"){u.base_url+="/tags/"+u.adv+"/"+u.ct+"/iframe";d=document.createElement("iframe");d.setAttribute("id","2");d.setAttribute("height","1");d.setAttribute("width","1");d.setAttribute("style","display:none");d.setAttribute("src",u.base_url);document.body.appendChild(d);}else{if(u.pid){c.push("pid"+u.kvp_delim+u.pid);}
+if(u.ct.indexOf(":")<0){u.ct="0:"+u.ct;}
+c.push("fmt"+u.kvp_delim+u.fmt);if(b._corder){c.push("v"+u.kvp_delim+((b._csubtotal)?b._csubtotal:"1"));c.push("vf"+u.kvp_delim+b._ccurrency);c.push("orderId"+u.kvp_delim+b._corder);}
+if(u.coid){c.push("coid"+u.kvp_delim+u.coid);}
+u.base_url+="/track/"+u.type+"/?ct"+u.kvp_delim+u.ct+u.qsp_delim+"adv"+u.kvp_delim+u.adv+u.qsp_delim;if(u.fmt=="3"){u.img=new Image();u.img.src=u.base_url+c.join(u.qsp_delim);}else{d=document.createElement("iframe");d.setAttribute("id","2");d.setAttribute("height","1");d.setAttribute("width","1");d.setAttribute("style","display:none");d.setAttribute("src",u.base_url+c.join(u.qsp_delim));document.body.appendChild(d);}}}
+taxitag.DB("send:2:COMPLETE");}
+try{taxitag.o[loader].loader.LOAD(id);}catch(e){taxitag.loader.LOAD(id);}})("2","adtaxi.trekbikes.com");}catch(error){taxitag.DB(error);}
