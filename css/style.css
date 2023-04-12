@@ -2,193 +2,192 @@
 /*Selector*/
 /*para seleccionar una clase antepongo un . al valor del atributo class*/
 * {
-    margin: 0;
-    padding: 0px;
-    box-sizing: border-box;
-    background-image: url(../img/1920x1080-Fondo-negro-de-cuero.jpg);
-    background-size: cover;
+  margin: 0;
+  padding: 0px;
+  box-sizing: border-box;
+  background-image: url(../img/1920x1080-Fondo-negro-de-cuero.jpg);
+  background-size: cover;
 }
 .logo {
-    font-size: 50px;
+  font-size: 50px;
 }
 
 .nav {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 .text {
-    width: 60px;
-    height: 60px;
+  width: 60px;
+  height: 60px;
 }
 
 .text2 {
-    width: 50;
-    height: 50px;
+  width: 50;
+  height: 50px;
 }
-.contenedorImagen{
-    display: grid;
-    place-content: center;
-    margin: 60px;
+.contenedorImagen {
+  display: grid;
+  place-content: center;
+  margin: 60px;
 }
-.contenedorTextoIndex{
-    display: grid;
-    place-content: center;
+.contenedorTextoIndex {
+  display: grid;
+  place-content: center;
 }
 .index {
-    margin-bottom: 40px;
-    font-size: 25px;
-    color: white;
+  margin-bottom: 40px;
+  font-size: 25px;
+  color: white;
 }
-.contenedorIndexBot{
-    display: grid;
-    place-content: center;
-    font-size: 25px;
-    color: white;
-    margin-top: 40px;
+.contenedorIndexBot {
+  display: grid;
+  place-content: center;
+  font-size: 25px;
+  color: white;
+  margin-top: 40px;
 }
 
-.contenedorNav{
-    width: 900px;
-    height: 58px;
-    position: sticky;
-    top: 0;
-    background-color: black;
+.contenedorNav {
+  width: 900px;
+  position: sticky;
+  top: 0;
+  background-color: black;
 }
 .nav {
-    color: rgb(255, 255, 255);
-    font-size: 20px;
-    transition: 1.5s all;
-    padding-left: 90px;}
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  transition: 1.5s all;
+  padding-left: 90px;
+}
 
 .nav:hover {
-    text-decoration: underline red;
+  text-decoration: underline red;
 }
 li {
-    display: inline;
+  display: inline;
 }
 
 #titular {
-    background-color: black;
-    width: 265px;
-    height: 32px;
-    font-size: 30px;
-    color: white;
-    margin-top: 50px;
+  background-color: black;
+  width: 265px;
+  height: 32px;
+  font-size: 30px;
+  color: white;
+  margin-top: 50px;
 }
 
 .alquilar {
-    font-size: 25px;
-    padding-left: 30px;
-    color: white;
+  font-size: 25px;
+  padding-left: 30px;
+  color: white;
 }
 
 .rental1 {
-    padding-left: 200px;
-    width: 600x;
-    height: 600px;
+  padding-left: 200px;
+  width: 600x;
+  height: 600px;
 }
 
 .form {
-    font-size: 20px;
-    color: white;
+  font-size: 20px;
+  color: white;
 }
 
 .video {
- display: grid;
- place-content: center;
+  display: grid;
+  place-content: center;
 }
 
 body {
-    margin: 0px;
+  margin: 0px;
 }
 
 .nombre {
-    font-size: 20px;
-    color: white;
+  font-size: 20px;
+  color: white;
 }
 
 .redes {
-    background-color: white;
+  background-color: white;
 }
 
 .link {
-    text-decoration: none;
+  text-decoration: none;
 }
-.contenedorPrincipal{
-    display: grid;
+.contenedorPrincipal {
+  display: grid;
 }
 .contenedorProducto {
-        display: grid;
-        grid-template-columns: 40rem 40rem;
-        grid-template-rows: 100px;
-        gap: 20px;
-        place-content: center;
-        margin-top: 130px;
+  display: grid;
+  grid-template-columns: 40rem 40rem;
+  grid-template-rows: 100px;
+  gap: 20px;
+  place-content: center;
+  margin-top: 130px;
 }
-.lorem{
-    color: white;
+.lorem {
+  color: white;
 }
-.productoProcaliber{
-    place-self: center;
-    color: white;
-    text-decoration: none;
-    font-size: 25px;
+.productoProcaliber {
+  place-self: center;
+  color: white;
+  text-decoration: none;
+  font-size: 25px;
+}
+.productoProcaliber:hover {
+  text-decoration: underline red;
+}
 
+.productoSupercaliber:hover {
+  text-decoration: underline red;
 }
-.productoProcaliber:hover{
-    text-decoration: underline red;
+.productoSupercaliber {
+  place-self: center;
+  color: white;
+  text-decoration: none;
+  font-size: 25px;
 }
-
-.productoSupercaliber:hover{
-    text-decoration: underline red;
+.productoTopFuel:hover {
+  text-decoration: underline red;
 }
-.productoSupercaliber{
-    place-self: center;
-    color: white;
-    text-decoration: none;
-    font-size: 25px;
-}
-.productoTopFuel:hover{
-    text-decoration: underline red;
-}
-.productoTopFuel{
-    place-self: center;
-    color: white;
-    text-decoration: none;
-    font-size: 25px;
+.productoTopFuel {
+  place-self: center;
+  color: white;
+  text-decoration: none;
+  font-size: 25px;
 }
 .topfuel {
-    width: 650px;
+  width: 650px;
 }
 .contenedorProducto2 {
-    display: grid;
-    grid-template-columns: 40rem 40rem;
-    grid-template-rows: 100px;
-    gap: 20px;
-    place-content: center;
+  display: grid;
+  grid-template-columns: 40rem 40rem;
+  grid-template-rows: 100px;
+  gap: 20px;
+  place-content: center;
 }
-.productoMadone:hover{
-    text-decoration: underline red;
+.productoMadone:hover {
+  text-decoration: underline red;
 }
-.productoMadone{
-    place-self: center;
-    color: white;
-    text-decoration: none;
-    font-size: 25px;
+.productoMadone {
+  place-self: center;
+  color: white;
+  text-decoration: none;
+  font-size: 25px;
 }
-.madone{
-    width: 650px;
+.madone {
+  width: 650px;
 }
-footer{
-    display: flex;
-    max-width: 100%;
-    flex-direction: column;
+footer {
+  display: flex;
+  max-width: 100%;
+  flex-direction: column;
 }
-.contacto{
-    margin-top: 40px;
+.contacto {
+  margin-top: 40px;
 }
-.logosRedes{
-    display: flex;
-    margin-top: 40px;
-    gap: 20px;
+.logosRedes {
+  display: flex;
+  margin-top: 40px;
+  gap: 20px;
 }
