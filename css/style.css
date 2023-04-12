@@ -25,25 +25,37 @@
     width: 50;
     height: 50px;
 }
-
+.contenedorImagen{
+    display: grid;
+    place-content: center;
+    margin: 60px;
+}
+.contenedorTextoIndex{
+    display: grid;
+    place-content: center;
+}
 .index {
+    margin-bottom: 40px;
     font-size: 25px;
     color: white;
 }
-
-.wrapper {
-    position: fixed;
-    background-image: url(../img/1920x1080-Fondo-negro-de-cuero.jpg);
-    height: 58px;
-    width: 2000px;
+.contenedorIndexBot{
+    display: grid;
+    place-content: center;
+    font-size: 25px;
+    color: white;
+    margin-top: 40px;
 }
 
+.contenedorNav{
+    width: 900px;
+    height: 58px;
+}
 .nav {
     color: rgb(255, 255, 255);
     font-size: 20px;
     transition: 1.5s all;
-    padding-left: 90px;
-}
+    padding-left: 90px;}
 
 .nav:hover {
     text-decoration: underline red;
@@ -78,8 +90,8 @@ li {
 }
 
 .video {
-    padding-left: 400px;
-    width: 1500px;
+ display: grid;
+ place-content: center;
 }
 
 body {
