@@ -1,38 +1,20 @@
-/*INDEX*/
-/*Selector*/
-/*para seleccionar una clase antepongo un . al valor del atributo class*/
-* {
-  margin: 0;
-  padding: 0px;
-  box-sizing: border-box;
+body {
   background-image: url(../img/1920x1080-Fondo-negro-de-cuero.jpg);
-  background-size: cover;
 }
-.logo {
-  font-size: 50px;
+header{
+    position: sticky;
+    top: 0;
 }
-
-.nav {
-  text-decoration: none;
+.navbar{
+    background-color: #1a1a1a;
 }
-
-.text {
-  width: 60px;
-  height: 60px;
-}
-
-.text2 {
-  width: 50;
-  height: 50px;
-}
-.contenedorImagen {
-  display: grid;
-  place-content: center;
-  margin: 60px;
+.imgNavbar {
+  width: 180px;
 }
 .contenedorTextoIndex {
   display: grid;
   place-content: center;
+  margin-top: 50px;
 }
 .index {
   margin-bottom: 40px;
@@ -40,153 +22,30 @@
   color: white;
 }
 .contenedorIndexBot {
-  display: grid;
-  place-content: center;
-  font-size: 25px;
-  color: white;
-  margin-top: 40px;
-}
-
-.contenedorNav {
-  width: 900px;
-  position: sticky;
-  top: 0;
-}
-.nav {
-  color: rgb(255, 255, 255);
-  font-size: 20px;
-  transition: 1.5s all;
-  padding-left: 90px;
-}
-
-.nav:hover {
-  text-decoration: underline red;
-}
-li {
-  display: inline;
-}
-
-#titular {
-  background-color: black;
-  width: 265px;
-  height: 32px;
-  font-size: 30px;
-  color: white;
-  margin-top: 50px;
-}
-
-.alquilar {
-  font-size: 25px;
-  padding-left: 30px;
-  color: white;
-}
-
-.rental1 {
-  padding-left: 200px;
-  width: 600x;
-  height: 600px;
-}
-
-.form {
-  font-size: 20px;
-  color: white;
-}
-
-.video {
-  display: grid;
-  place-content: center;
-}
-
-body {
-  margin: 0px;
-}
-
-.nombre {
-  font-size: 20px;
-  color: white;
-}
-
-.redes {
-  background-color: white;
-}
-
-.link {
-  text-decoration: none;
-}
-.contenedorPrincipal {
-  display: grid;
-}
-.contenedorProducto {
-  display: grid;
-  grid-template-columns: 40rem 40rem;
-  grid-template-rows: 100px;
-  gap: 20px;
-  place-content: center;
-  margin-top: 130px;
-}
-.lorem {
-  color: white;
-}
-.productoProcaliber {
-  place-self: center;
-  color: white;
-  text-decoration: none;
-  font-size: 25px;
-}
-.productoProcaliber:hover {
-  text-decoration: underline red;
-}
-
-.productoSupercaliber:hover {
-  text-decoration: underline red;
-}
-.productoSupercaliber {
-  place-self: center;
-  color: white;
-  text-decoration: none;
-  font-size: 25px;
-}
-.productoTopFuel:hover {
-  text-decoration: underline red;
-}
-.productoTopFuel {
-  place-self: center;
-  color: white;
-  text-decoration: none;
-  font-size: 25px;
-}
-.topfuel {
-  width: 650px;
-}
-.contenedorProducto2 {
-  display: grid;
-  grid-template-columns: 40rem 40rem;
-  grid-template-rows: 100px;
-  gap: 20px;
-  place-content: center;
-}
-.productoMadone:hover {
-  text-decoration: underline red;
-}
-.productoMadone {
-  place-self: center;
-  color: white;
-  text-decoration: none;
-  font-size: 25px;
-}
-.madone {
-  width: 650px;
-}
-footer {
-  display: flex;
-  max-width: 100%;
-  flex-direction: column;
-}
-.contacto {
-  margin-top: 40px;
-}
-.logosRedes {
-  display: flex;
-  margin-top: 40px;
-  gap: 20px;
-}
+    display: grid;
+    place-content: center;
+    font-size: 25px;
+    color: white;
+    margin-top: 40px;
+  }
+  footer {
+    display: flex;
+    max-width: 100%;
+    flex-direction: column;
+  }
+  .contacto {
+    margin-top: 40px;
+  }
+  .form{
+    color:whitesmoke;
+  }
+  .logosRedes {
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    gap: 20px;
+  }
+  .text {
+    width: 60px;
+    height: 60px;
+  } 
